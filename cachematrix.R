@@ -3,9 +3,9 @@
 
 ## The makeCacheMatrix function creates matrix "x", which contains
 ## a function to 
-## (1) set the value of the matrix, 
-## (2) get the value of the matrix, 
-## (3) set the value of the inverse of matrix,
+## (1) set the value of the matrix 
+## (2) get the value of the matrix 
+## (3) set the value of the inverse of matrix
 ## (4) get the value of the inverse of matrix
 
 makeCacheMatrix <- function(x = matrix()) {
