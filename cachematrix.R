@@ -46,10 +46,10 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## The cacheSolve function also takes a matrix as argument. Its additional arguments are
-## acquired from the the solve function. The the cacheSolve function computes the inverse 
-## of the matrix returned by the function makeCacheMatrix. It firstly check whether a 
-## cached inverse exist. If so, it returns the cached value; if not, the cacheSolve function
-## attempts to solve its inverse and set/return it.
+## acquired from the the solve function by the "dot dot dot argument". The the cacheSolve 
+## function computes the inverse of the matrix returned by the function makeCacheMatrix. 
+## It firstly check whether a cached inverse exist. If so, it returns the cached value; 
+## if not, the cacheSolve function attempts to solve the inverse and set/return it.
 
 cacheSolve <- function(x = matrix(), ...) {
         ## Return a matrix that is the inverse of 'x'
